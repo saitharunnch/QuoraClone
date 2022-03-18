@@ -1,0 +1,43 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+     font-family: Sofia Pro;
+     background-image: url('https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png');
+  }
+  
+  .login-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Sofia Pro;
+    background-color: white;
+    width: 50vw;
+    padding: 20px;
+   
+  }
+  
+  .login-content > img {
+    width: 200px;
+    object-fit: contain;
+    margin: 20px;
+    font-family: Sofia Pro;
+    
+  }
+  
+  .login-content > button {
+    padding: 10px;
+    margin: 50px 0px;
+    background-color: #0066FF;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1.1px;
+    font-family: Sofia Pro;
+    cursor: pointer;
+  }
+  
